@@ -1,0 +1,51 @@
+<!--
+    Fájlnév: index.html
+    2022.04.10
+    Halász András
+    Szoft I E 1/1
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kszukcal</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalória</h1>
+        <h3>Halász András</h3>
+        <p>2022.04.10. Szoft I E 1/1</p>
+
+
+        <div class="mb-3">
+            <label for="suly" class="form-label">Súly</label>
+            <input type="text" class="form-control" id="suly" placeholder="70">
+          </div>
+
+          <div class="mb-3">
+            <label for="tzsir" class="form-label">Test zsír %</label>
+            <input type="text" class="form-control" id="tzsir" placeholder="0.18">
+          </div>
+
+          <button class="btn btn-primary" id="szamitGomb">Számít</button>
+
+          <div class="my-3" id="kaloria_doboz">
+            <label for="kaloria" class="form-label">BMR</label>
+            <input type="text" class="form-control" id="kaloria">
+          </div>
+
+
+
+
+
+
+    </div>
+    
+    <script src="jquery.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
